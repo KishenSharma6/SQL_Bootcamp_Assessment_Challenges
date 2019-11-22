@@ -1,0 +1,7 @@
+CREATE TABLE rental_site
+(cust_id SERIAL PRIMARY KEY,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAR(50) NOT NULL,
+email VARCHAR(150) UNIQUE NOT NULL,
+signup_date TIMESTAMP NOT NULL,
+minutes INTEGER);
